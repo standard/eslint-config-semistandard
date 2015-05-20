@@ -7,7 +7,7 @@
     "url": "https://github.com/Flet/eslint-config-semistandard/issues"
   },
   "devDependencies": {
-    "eslint": "^0.21.0",
+    "standard": "^3.8.0",
     "tap-spec": "^3.0.0",
     "tape": "^4.0.0"
   },
@@ -36,7 +36,8 @@
     "checker",
     "code standards",
     "JavaScript Semistandard Style",
-    "semistandard style"
+    "semistandard style",
+    "eslintconfig"
   ],
   "license": "ISC",
   "main": "index.js",
@@ -47,10 +48,8 @@
   "scripts": {
     "test": "standard && tape test/*.js | tap-spec"
   },
-  "dependencies": {
-    "eslint": "^0.21.0",
-    "eslint-config-standard": "^1.0.0",
-    "eslint-plugin-react": "^2.2.0",
-    "standard": "^3.8.0"
+  "peerDependencies": {
+    "eslint": "0.x",
+    "eslint-config-standard": "^1.1.0"
   }
 }

@@ -1,4 +1,7 @@
-var config = require('eslint-config-standard')
+module.exports = {
+  'extends': 'standard',
 
-config.rules.semi = [2, 'always']
-module.exports = config
+  'rules': {
+    'semi': [2, 'always']
+  }
+}
