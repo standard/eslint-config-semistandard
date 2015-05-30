@@ -50,6 +50,6 @@
   },
   "peerDependencies": {
     "eslint": "0.x",
-    "eslint-config-standard": "^1.1.0"
+    "eslint-config-standard": "^2.0.0"
   }
 }
