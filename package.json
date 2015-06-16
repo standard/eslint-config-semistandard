@@ -7,8 +7,8 @@
     "url": "https://github.com/Flet/eslint-config-semistandard/issues"
   },
   "devDependencies": {
-    "standard": "^3.8.0",
-    "tap-spec": "^3.0.0",
+    "standard": "^4.2.1",
+    "tap-spec": "^4.0.0",
     "tape": "^4.0.0"
   },
   "homepage": "https://github.com/Flet/eslint-config-semistandard",
@@ -50,6 +50,6 @@
   },
   "peerDependencies": {
     "eslint": "0.x",
-    "eslint-config-standard": "^2.0.0"
+    "eslint-config-standard": "^3.2.0"
   }
 }
