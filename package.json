@@ -1,13 +1,13 @@
 {
   "name": "eslint-config-semistandard",
   "description": "eslint sharable config for semistandard",
-  "version": "4.0.0",
+  "version": "5.0.0-1",
   "author": "Dan Flettre <fletd01@yahoo.com>",
   "bugs": {
     "url": "https://github.com/Flet/eslint-config-semistandard/issues"
   },
   "devDependencies": {
-    "standard": "^4.2.1",
+    "standard": "^5.0.0-8",
     "tap-spec": "^4.0.0",
     "tape": "^4.0.0"
   },
@@ -49,7 +49,7 @@
     "test": "standard && tape test/*.js | tap-spec"
   },
   "peerDependencies": {
-    "eslint": "0.x",
-    "eslint-config-standard": "^3.2.0"
+    "eslint": "1.x",
+    "eslint-config-standard": "^4.0.0-5"
   }
 }
