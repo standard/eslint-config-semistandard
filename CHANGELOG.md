@@ -3,6 +3,9 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## 5.0.1 2016-02-26
+* remove unneeded peerDeps
+
 ## 4.0.0 - 2015-06-16
 ### BREAKING CHANGE: react rules removed from standard and moved to eslint-config-standard-react
 * To include the react rules, extend from both packages in your eslint config:
