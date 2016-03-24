@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## 6.0.0 2016-03-23
+### BREAKING CHANGE bumped to the next major version of `eslint-config-standard` which as lots of new rules.
+
+New Rules:
+  * move jsx-quotes rule from eslint-config-standard-react
+  * New rule: Disallow empty destructuring patterns (no-empty-pattern)
+  * New rule: Disallow string concatenation when using __dirname and __filename (no-path-concat)
+  * New rule: Disallow unnecessary constructor (no-useless-constructor)
+  * New rule: Disallow Self Assignment (no-self-assign)
+  * New rule: Disallow Symbol Constructor (no-new-symbol)
+  * New rule: Enforce Usage of Spacing in Template Strings (template-curly-spacing)
+  * add promise/param-names rule
+  * New rule: Require parens in arrow function arguments
+  * New rule: Enforce spaces around * in "yield *"
+  * disallow label usage, even with loops/switch statements
+  * no-return-assign: make default option explicit
+
+
 ## 5.0.1 2016-02-26
 * remove unneeded peerDeps
 
