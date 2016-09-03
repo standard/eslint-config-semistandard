@@ -7,10 +7,10 @@
     "url": "https://github.com/Flet/eslint-config-semistandard/issues"
   },
   "devDependencies": {
-    "eslint": "^3.1.1",
-    "eslint-config-standard": "^6.0.0-beta.1",
+    "eslint": "^3.4.0",
+    "eslint-config-standard": "^6.0.0",
     "eslint-plugin-standard": "^2.0.0",
-    "standard": "^8.0.0-beta.2",
+    "standard": "^8.0.0",
     "tap-spec": "^4.0.0",
     "tape": "^4.6.0"
   },
@@ -52,6 +52,6 @@
     "test": "standard && tape test/*.js | tap-spec"
   },
   "peerDependencies": {
-    "eslint-config-standard": "^6.0.0-beta.1"
+    "eslint-config-standard": "^6.0.0"
   }
 }
