@@ -6,11 +6,13 @@
   "bugs": {
     "url": "https://github.com/Flet/eslint-config-semistandard/issues"
   },
-  "devDependencies": {
+  "dependencies": {
     "eslint": "^3.4.0",
     "eslint-config-standard": "^6.0.0",
     "eslint-plugin-standard": "^2.0.0",
-    "standard": "^8.0.0",
+    "standard": "^8.0.0"
+  },
+  "devDependencies": {
     "tap-spec": "^4.0.0",
     "tape": "^4.6.0"
   },
