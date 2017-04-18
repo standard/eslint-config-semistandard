@@ -8,9 +8,12 @@
   },
   "devDependencies": {
     "eslint": "^3.4.0",
-    "eslint-config-standard": "^7.0.0",
-    "eslint-plugin-standard": "^2.0.0",
-    "standard": "^9.0.0",
+    "eslint-config-standard": "^10.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-node": "^4.2.2",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.0",
+    "standard": "^10.0.0",
     "tap-spec": "^4.0.0",
     "tape": "^4.6.0"
   },
@@ -52,6 +55,6 @@
     "test": "standard && tape test/*.js | tap-spec"
   },
   "peerDependencies": {
-    "eslint-config-standard": "^7.0.0"
+    "eslint-config-standard": "^10.0.0"
   }
 }
