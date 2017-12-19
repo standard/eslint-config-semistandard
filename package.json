@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-semistandard",
   "description": "eslint sharable config for semistandard",
-  "version": "11.0.0",
+  "version": "12.0.0",
   "author": "Dan Flettre <flettre@gmail.com",
   "bugs": {
     "url": "https://github.com/Flet/eslint-config-semistandard/issues"
