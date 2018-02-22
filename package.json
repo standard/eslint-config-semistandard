@@ -7,16 +7,16 @@
     "url": "https://github.com/Flet/eslint-config-semistandard/issues"
   },
   "devDependencies": {
-    "eslint": "^4.13.0",
-    "eslint-config-standard": "11.0.0-beta.0",
-    "eslint-plugin-import": "^2.2.0",
+    "eslint": "^4.18.0",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-node": "^5.2.1",
-    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-promise": "^3.6.0",
     "eslint-plugin-react": "^7.5.1",
-    "eslint-plugin-standard": "^3.0.0",
+    "eslint-plugin-standard": "^3.0.1",
     "standard": "^11.0.0-beta.0",
     "tap-spec": "^4.1.1",
-    "tape": "^4.6.3"
+    "tape": "^4.8.0"
   },
   "homepage": "https://github.com/Flet/eslint-config-semistandard",
   "keywords": [
@@ -48,19 +48,19 @@
   ],
   "license": "ISC",
   "main": "index.js",
+  "peerDependencies": {
+    "eslint": ">=4.18.0",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": ">=2.8.0",
+    "eslint-plugin-node": ">=5.2.1",
+    "eslint-plugin-promise": ">=3.6.0",
+    "eslint-plugin-standard": ">=3.0.1"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/Flet/eslint-config-semistandard.git"
   },
   "scripts": {
     "test": "standard && tape test/*.js | tap-spec"
-  },
-  "peerDependencies": {
-    "eslint": ">=4.12.1",
-    "eslint-config-standard": "11.0.0-beta.0",
-    "eslint-plugin-import": ">=2.2.0",
-    "eslint-plugin-node": ">=5.2.1",
-    "eslint-plugin-promise": ">=3.5.0",
-    "eslint-plugin-standard": ">=3.0.0"
   }
 }
