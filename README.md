@@ -16,7 +16,7 @@ eslint sharable config for semistandard
 npm install --save-dev eslint-plugin-promise eslint-plugin-standard eslint-plugin-node eslint-plugin-import
 npm install --save-dev eslint-config-standard
 npm install --save-dev eslint-config-semistandard
-# note that eslint-plugin-promise, eslint-plugin-standard, & eslint-plugin-node eslint-plugin-import are required peer dependencies
+# note that eslint-plugin-promise, eslint-plugin-standard, eslint-plugin-node, eslint-plugin-import & eslint-config-standard are required peer dependencies
 ```
 
 ## Usage
