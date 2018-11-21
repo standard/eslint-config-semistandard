@@ -13,10 +13,10 @@ eslint sharable config for semistandard
 ## Install
 
 ```bash
-npm install eslint-plugin-promise eslint-plugin-standard eslint-plugin-react
-npm install eslint-config-standard
-npm install eslint-config-semistandard
-# note that eslint-plugin-promise, eslint-plugin-standard, & eslint-plugin-react are required peer dependencies
+npm install --save-dev eslint-plugin-promise eslint-plugin-standard eslint-plugin-node eslint-plugin-import
+npm install --save-dev eslint-config-standard
+npm install --save-dev eslint-config-semistandard
+# note that eslint-plugin-promise, eslint-plugin-standard, eslint-plugin-node, eslint-plugin-import & eslint-config-standard are required peer dependencies
 ```
 
 ## Usage
