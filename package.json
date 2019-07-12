@@ -2,17 +2,16 @@
   "name": "eslint-config-semistandard",
   "description": "eslint sharable config for semistandard",
   "version": "13.0.0",
-  "author": "Dan Flettre <flettre@gmail.com",
+  "author": "Dan Flettre <flettre@gmail.com>",
   "bugs": {
     "url": "https://github.com/Flet/eslint-config-semistandard/issues"
   },
   "devDependencies": {
     "eslint": "^6.0.1",
     "eslint-config-standard": "^13.0.1",
-    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-import": "^2.18.0",
     "eslint-plugin-node": "^9.1.0",
-    "eslint-plugin-promise": "^4.0.0",
-    "eslint-plugin-react": "^7.11.1",
+    "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.0",
     "standard": "^13.0.1",
     "tap-spec": "^5.0.0",
@@ -32,7 +31,6 @@
     "code",
     "lint",
     "eslint",
-    "eslintconfig",
     "jshint",
     "jscs",
     "hint",
@@ -49,11 +47,11 @@
   "license": "ISC",
   "main": "index.js",
   "peerDependencies": {
-    "eslint": ">=5.4.0",
-    "eslint-config-standard": "^12.0.0",
-    "eslint-plugin-import": ">=2.14.0",
-    "eslint-plugin-node": ">=7.0.1",
-    "eslint-plugin-promise": ">=4.0.0",
+    "eslint": ">=6.0.1",
+    "eslint-config-standard": "^13.0.1",
+    "eslint-plugin-import": ">=2.18.0",
+    "eslint-plugin-node": ">=9.1.0",
+    "eslint-plugin-promise": ">=4.2.1",
     "eslint-plugin-standard": ">=4.0.0"
   },
   "repository": {
