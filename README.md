@@ -1,7 +1,5 @@
 # eslint-config-semistandard
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/standard/eslint-config-semistandard.svg)](https://greenkeeper.io/)
-
 [![npm][npm-image]][npm-url]
 [![travis][travis-image]][travis-url]
 
