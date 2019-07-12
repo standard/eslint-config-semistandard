@@ -25,8 +25,8 @@ This repository uses [`standard`][standard-url] to maintain code style and consi
 
 [standard-image]: https://cdn.rawgit.com/feross/standard/master/badge.svg
 [standard-url]: https://github.com/feross/standard
-[semistandard-image]: https://cdn.rawgit.com/flet/semistandard/master/badge.svg
-[semistandard-url]: https://github.com/Flet/semistandard
+[semistandard-image]: https://cdn.rawgit.com/standard/semistandard/master/badge.svg
+[semistandard-url]: https://github.com/standard/semistandard
 
 ---
 

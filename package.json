@@ -4,7 +4,7 @@
   "version": "13.0.0",
   "author": "Dan Flettre <flettre@gmail.com>",
   "bugs": {
-    "url": "https://github.com/Flet/eslint-config-semistandard/issues"
+    "url": "https://github.com/standard/eslint-config-semistandard/issues"
   },
   "devDependencies": {
     "eslint": "^6.0.1",
@@ -17,7 +17,7 @@
     "tap-spec": "^5.0.0",
     "tape": "^4.9.1"
   },
-  "homepage": "https://github.com/Flet/eslint-config-semistandard",
+  "homepage": "https://github.com/standard/eslint-config-semistandard",
   "keywords": [
     "semistandard",
     "style checker",
@@ -56,7 +56,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Flet/eslint-config-semistandard.git"
+    "url": "https://github.com/standard/eslint-config-semistandard.git"
   },
   "scripts": {
     "test": "standard && tape test/*.js | tap-spec"
