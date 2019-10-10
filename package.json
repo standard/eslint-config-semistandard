@@ -45,6 +45,9 @@
   ],
   "license": "ISC",
   "main": "index.js",
+  "files": [
+    ".eslintrc.js"
+  ],
   "peerDependencies": {
     "eslint": ">=6.0.1",
     "eslint-config-standard": "^13.0.1",
