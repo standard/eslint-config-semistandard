@@ -12,7 +12,13 @@ eslint sharable config for semistandard
 
 ## Install
 
-```bash
+Use [`install-peerdeps`](https://npm.im/install-peerdeps):
+
+```
+npx install-peerdeps --dev eslint-config-semistandard
+```
+or the classic way:
+```
 npm install --save-dev eslint-plugin-promise eslint-plugin-standard eslint-plugin-node eslint-plugin-import
 npm install --save-dev eslint-config-standard
 npm install --save-dev eslint-config-semistandard
