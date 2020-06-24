@@ -1,13 +1,13 @@
-var eslint = require('eslint')
-var test = require('tape')
-var path = require('path')
+'use strict';
 
-var linter = new eslint.CLIEngine({
-  configFile: path.join(__dirname, '..', 'eslintrc.json')
-})
+const { CLIEngine } = require('eslint');
+const test = require('tape');
 
-test('api: lintText', function (t) {
-  t.plan(1)
-  var result = linter.executeOnText("console.log('hi there')\n\n")
-  t.equals(result.results[0].messages[0].message, 'Missing semicolon.')
-})
+const configFile = require.resolve('../.eslintrc');
+const linter = new CLIEngine({ configFile });
+
+test('api: lintText', t => {
+  t.plan(1);
+  const result = linter.executeOnText("console.log('hi there')\n\n");
+  t.equals(result.results[0].messages[0].message, 'Missing semicolon.');
+});

@@ -13,7 +13,6 @@
     "eslint-plugin-node": "^10.0.0",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.0",
-    "standard": "*",
     "tap-spec": "^5.0.0",
     "tape": "^4.9.1"
   },
@@ -46,6 +45,9 @@
   ],
   "license": "ISC",
   "main": "index.js",
+  "files": [
+    ".eslintrc.js"
+  ],
   "peerDependencies": {
     "eslint": ">=6.0.1",
     "eslint-config-standard": ">=14.1.0",
@@ -59,6 +61,7 @@
     "url": "https://github.com/standard/eslint-config-semistandard.git"
   },
   "scripts": {
-    "test": "standard && tape test/*.js | tap-spec"
+    "test": "tape test/*.js | tap-spec",
+    "lint": "eslint ."
   }
 }
