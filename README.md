@@ -8,7 +8,7 @@
 [travis-image]: https://img.shields.io/travis/standard/eslint-config-semistandard.svg?style=flat-square
 [travis-url]: https://travis-ci.org/standard/eslint-config-semistandard
 
-eslint sharable config for semistandard
+eslint sharable config for semistandard – like [eslint-config-standard](https://github.com/feross/eslint-config-standard), but with semicolons
 
 ## Install
 
