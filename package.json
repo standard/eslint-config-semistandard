@@ -1,47 +1,46 @@
 {
   "name": "eslint-config-semistandard",
-  "description": "eslint sharable config for semistandard",
+  "description": "JavaScript Semistandard Style - ESLint Shareable Config",
   "version": "15.0.1",
   "author": "Dan Flettre <flettre@gmail.com>",
   "bugs": {
     "url": "https://github.com/standard/eslint-config-semistandard/issues"
   },
   "devDependencies": {
-    "eslint": "^6.0.1",
-    "eslint-config-standard": "^14.0.0",
-    "eslint-plugin-import": "^2.18.0",
-    "eslint-plugin-node": "^10.0.0",
+    "eslint": "^7.12.1",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-standard": "^4.0.0",
     "tap-spec": "^5.0.0",
-    "tape": "^5.0.0"
+    "tape": "^5.0.1"
   },
   "homepage": "https://github.com/standard/eslint-config-semistandard",
   "keywords": [
-    "semistandard",
-    "style checker",
-    "code style",
+    "JavaScript Semistandard Style",
+    "check",
+    "checker",
+    "code",
     "code checker",
     "code linter",
-    "style linter",
-    "simple",
-    "policy",
-    "style",
-    "code",
-    "lint",
-    "eslint",
-    "jshint",
-    "jscs",
-    "hint",
-    "enforce",
-    "check",
-    "verify",
-    "quality",
-    "checker",
     "code standards",
-    "JavaScript Semistandard Style",
+    "code style",
+    "enforce",
+    "eslint",
+    "eslintconfig",
+    "hint",
+    "jscs",
+    "jshint",
+    "lint",
+    "policy",
+    "quality",
+    "simple",
+    "semistandard",
     "semistandard style",
-    "eslintconfig"
+    "style",
+    "style checker",
+    "style linter",
+    "verify"
   ],
   "license": "ISC",
   "main": "index.js",
@@ -49,19 +48,18 @@
     ".eslintrc.js"
   ],
   "peerDependencies": {
-    "eslint": ">=6.0.1",
-    "eslint-config-standard": ">=14.1.0",
-    "eslint-plugin-import": ">=2.18.0",
-    "eslint-plugin-node": ">=9.1.0",
-    "eslint-plugin-promise": ">=4.2.1",
-    "eslint-plugin-standard": ">=4.0.0"
+    "eslint": "^7.12.1",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/standard/eslint-config-semistandard.git"
   },
   "scripts": {
-    "test": "tape test/*.js | tap-spec",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "test": "npm run lint && tape test/*.js"
   }
 }
