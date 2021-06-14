@@ -3,7 +3,7 @@
 const { CLIEngine } = require('eslint');
 const test = require('tape');
 
-const configFile = require.resolve('../.eslintrc');
+const configFile = require.resolve('../eslintrc.json');
 const linter = new CLIEngine({ configFile });
 
 test('api: lintText', t => {
