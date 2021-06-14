@@ -1,39 +1,33 @@
-# eslint-config-semistandard
+# eslint-config-semistandard [![travis][travis-image]][travis-url] [![npm][npm-image]][npm-url] [![downloads][downloads-image]][downloads-url] [![javascript style guide][standard-image]][standard-url]
 
-[![npm][npm-image]][npm-url]
-[![travis][travis-image]][travis-url]
-
-[npm-image]: https://img.shields.io/npm/v/eslint-config-semistandard.svg?style=flat-square
-[npm-url]: https://www.npmjs.com/package/eslint-config-semistandard
-[travis-image]: https://img.shields.io/travis/standard/eslint-config-semistandard.svg?style=flat-square
+[travis-image]: https://img.shields.io/travis/standard/eslint-config-semistandard.svg
 [travis-url]: https://travis-ci.org/standard/eslint-config-semistandard
+[npm-image]: https://img.shields.io/npm/v/eslint-config-semistandard.svg
+[npm-url]: https://www.npmjs.com/package/eslint-config-semistandard
+[downloads-image]: https://img.shields.io/npm/dm/eslint-config-semistandard.svg
+[downloads-url]: https://npmjs.org/package/eslint-config-semistandard
+[standard-image]: https://img.shields.io/badge/code_style-semistandard-brightgreen.svg
+[standard-url]: https://github.com/standard/semistandard
 
-eslint sharable config for semistandard – like [eslint-config-standard](https://github.com/feross/eslint-config-standard), but with semicolons
+#### One Semicolon for the Dark Lord on his dark throne
+
+An ESLint [Shareable Config](http://eslint.org/docs/developer-guide/shareable-configs) for [JavaScript Standard Style](http://standardjs.com) with semicolons sprinkled on top.
 
 ## Install
 
-Use [`install-peerdeps`](https://npm.im/install-peerdeps):
+This module is for advanced users. You probably want to use [`semistandard`](https://github.com/standard/semistandard) instead :)
 
-```
-npx install-peerdeps --dev eslint-config-semistandard
-```
-or the classic way:
-```
-npm install --save-dev eslint-plugin-promise eslint-plugin-standard eslint-plugin-node eslint-plugin-import
-npm install --save-dev eslint-config-standard
-npm install --save-dev eslint-config-semistandard
-# note that eslint-plugin-promise, eslint-plugin-standard, eslint-plugin-node, eslint-plugin-import & eslint-config-standard are required peer dependencies
+```bash
+npm install eslint-config-semistandard
 ```
 
 ## Usage
 
-Read up on how to use [sharable configs](http://eslint.org/docs/developer-guide/shareable-configs) at the eslint website.
+This is just [eslint-config-standard](https://github.com/standard/eslint-config-standard) with semicolons set as required rather than banned. For further details, see [eslint-config-standard](https://github.com/standard/eslint-config-standard).
 
-For more details see [eslint-config-standard](https://github.com/feross/eslint-config-standard)
+## Learn more
 
-## Contributing
-
-Contributions welcome! Please read the [contributing guidelines](CONTRIBUTING.md) first.
+For the full listing of rules, editor plugins, FAQs, and more, visit the main [JavaScript Standard Style repo](http://standardjs.com).
 
 ## License
 
