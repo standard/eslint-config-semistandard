@@ -13,6 +13,9 @@
 
 An ESLint [Shareable Config](http://eslint.org/docs/developer-guide/shareable-configs) for [JavaScript Standard Style](http://standardjs.com) with semicolons sprinkled on top.
 
+[![JavaScript Style Guide - Semistandard Style](https://raw.githubusercontent.com/standard/semistandard/master/badge.svg)](https://github.com/standard/semistandard)
+
+
 ## Install
 
 This module is for advanced users. You probably want to use [`semistandard`](https://github.com/standard/semistandard) instead :)
