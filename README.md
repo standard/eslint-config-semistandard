@@ -1,7 +1,7 @@
-# eslint-config-semistandard [![travis][travis-image]][travis-url] [![npm][npm-image]][npm-url] [![downloads][downloads-image]][downloads-url] [![javascript style guide][standard-image]][standard-url]
+# eslint-config-semistandard [![tests][tests-image]][tests-url] [![npm][npm-image]][npm-url] [![downloads][downloads-image]][downloads-url] [![javascript style guide][standard-image]][standard-url]
 
-[travis-image]: https://img.shields.io/travis/standard/eslint-config-semistandard.svg
-[travis-url]: https://travis-ci.org/standard/eslint-config-semistandard
+[tests-image]: https://github.com/standard/eslint-config-semistandard/actions/workflows/test.yml/badge.svg
+[tests-url]: https://github.com/standard/eslint-config-semistandard/actions/workflows/test.yml
 [npm-image]: https://img.shields.io/npm/v/eslint-config-semistandard.svg
 [npm-url]: https://www.npmjs.com/package/eslint-config-semistandard
 [downloads-image]: https://img.shields.io/npm/dm/eslint-config-semistandard.svg
