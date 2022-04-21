@@ -1,13 +1,13 @@
 'use strict';
 
-const { CLIEngine } = require('eslint');
+const { ESLint } = require('eslint');
 const test = require('tape');
 
-const configFile = require.resolve('../eslintrc.json');
-const linter = new CLIEngine({ configFile });
+const overrideConfigFile = require.resolve('../eslintrc.json');
+const linter = new ESLint({ overrideConfigFile });
 
-test('api: lintText', t => {
+test('api: lintText', async t => {
   t.plan(1);
-  const result = linter.executeOnText("console.log('hi there')\n\n");
-  t.equals(result.results[0].messages[0].message, 'Missing semicolon.');
+  const [result] = await linter.lintText("console.log('hi there')\n\n");
+  t.equal(result.messages[0].message, 'Missing semicolon.');
 });
