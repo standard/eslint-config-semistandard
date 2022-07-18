@@ -12,7 +12,6 @@
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-n": "^15.0.0",
     "eslint-plugin-promise": "^6.0.0",
-    "tap-spec": "^5.0.0",
     "tape": "^5.5.3"
   },
   "homepage": "https://github.com/standard/eslint-config-semistandard",
