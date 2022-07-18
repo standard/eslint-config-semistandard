@@ -1,4 +1,4 @@
-name: Test
+name: 'ci'
 
 on:
   push:
@@ -7,33 +7,26 @@ on:
     branches: [master]
 
 jobs:
-  test:
-    runs-on: ubuntu-latest
-
-    strategy:
-      matrix:
-        node-version: [10.x, 12.x, 14.x, 16.x]
-      fail-fast: false
-
+  ci:
+    runs-on: 'ubuntu-latest'
     steps:
-      - name: Checkout project
-        uses: actions/checkout@v2
+      - uses: 'actions/checkout@v3'
 
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v2
+      - name: 'Use Node.js'
+        uses: 'actions/setup-node@v3'
         with:
-          node-version: ${{ matrix.node-version }}
+          node-version: 'lts/*'
 
-      - name: Cache Node dependencies
-        uses: actions/cache@v2.1.5
+      - name: 'Cache Node dependencies'
+        uses: 'actions/cache@v3.0.1'
         with:
-          path: ~/.npm
+          path: '~/.npm'
           key: ${{ runner.os }}-node-${{ hashFiles('**/package.json') }}
           restore-keys: |
             ${{ runner.os }}-node-
 
-      - name: Install dependencies
-        run: npm install
+      - name: 'Install dependencies'
+        run: 'npm install'
 
-      - name: Run tests
-        run: npm test
+      - name: 'Run tests'
+        run: 'npm test'
