@@ -9,7 +9,7 @@
   "devDependencies": {
     "eslint": "^8.13.0",
     "eslint-config-standard": "^17.0.0",
-    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-n": "^15.2.4",
     "eslint-plugin-promise": "^6.0.0",
     "tape": "^5.5.3"
@@ -51,7 +51,7 @@
   "peerDependencies": {
     "eslint": "^8.13.0",
     "eslint-config-standard": "^17.0.0",
-    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-n": "^15.2.4",
     "eslint-plugin-promise": "^6.0.0"
   },
